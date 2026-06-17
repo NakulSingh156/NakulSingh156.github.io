@@ -5,7 +5,7 @@ date: 2026-05-24
 categories: gsoc dbpedia
 ---
 
-It was the night of 30th April 2026, around 11 pm. I was patiently waiting for the official list of GSoC contributors to be released, which was supposed to come at 11:30 pm. I just kept refreshing my inbox. At around 11:37 pm I received the mail: "Congratulations you have been accepted as a contributor for GSoC 2026!" You know, I was constantly visualizing how I would celebrate if I got selected, and after I did get selected, my reaction was surprisingly very calm. Like yeah, I've worked for it.
+It was the night of 30th April 2026, around 11 pm. I was patiently waiting for the official list of GSoC contributors to be released, which was supposed to come at 11:30 pm. I just kept refreshing my inbox. At around 11:37 pm I received the mail: "Congratulations you have been accepted as a contributor for GSoC 2026!" You know, I was constantly visualizing how I would celebrate if I get selected, and after I did get selected, my reaction was surprisingly very calm. Like yeah, I've worked for it.
 
 ## Kicking Off the Community Bonding Period
 
