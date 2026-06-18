@@ -16,7 +16,7 @@ After the catastrophic failures with Gemma, I realized that the pipeline require
 
 First, I tested Qwen. The results were definitely more accurate. Look at the pipeline output below for the exact same input style that Gemma failed on:
 
-![Qwen Extraction Success](/qwen-success.jpg)
+![Qwen Extraction Success](/qwen-success.png)
 
 Qwen flawlessly bypassed the coreference trap. It cleanly extracted `'Christopher Nolan'` as the subject, `'directed'` as the raw predicate, and `'Inception'` as the object. From there, my Neuro Symbolic math layer took over and perfectly mapped them to the official DBpedia URIs.
 
