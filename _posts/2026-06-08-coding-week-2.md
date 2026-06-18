@@ -1,3 +1,10 @@
+---
+layout: post
+title: "GSoC '26 Week 2: Implementation, Hallucinations, and the Need for a Neuro-Symbolic Bridge"
+date: 2026-06-08
+categories: gsoc dbpedia
+---
+
 Now as I was ready with both of my approaches, I straight away started with implementing Approach B.
 For that I started experimenting various LLM models, and compared their performance, by calculating the quality and accuracy of raw triples given by them. For testing those models and evaluating their performance I used 10 benchmark complex sentences.
 As per my mentor's recommendation, I started experimenting with Small Language Models: qwen, gemma and llama.
