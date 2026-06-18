@@ -35,3 +35,25 @@ The data tells the whole story:
 
 Llama 3 gave me the exact same semantic accuracy as Qwen, but it shaved crucial milliseconds off every single API call, allowing the Python math layers to execute faster. We had our winning model.
 
+With this the step 1 of the pipeline is complete, we are able to generate raw triples from the sentence using Llama model. Now the next step of the pipeline is fetching the 15 most relevant URIs for the resouces in the raw triple using the DBpedia API. We take the context of the sentence in a vector space, now our MiniLM model calculates a cosine similarity score with the abstract of each of the 15 URIs, and then all those candidates are ranked on the basis of that similarity score.
+
+We faced similar hallucinations in this layer as well. The code executed perfectly and did the math correctly, but the actual output was wrong because of what I call **"Context Drowning."**
+
+Pure vector models get overwhelmed when candidate abstracts contain the exact high context proper nouns from the input sentence. Look at this visual proof from my research log during the Pulp Fiction test:
+
+![Mia Wallace Context Drowning Visual Proof](/mia_wallace_fail.jpg)
+
+**The Failure Breakdown:**
+The pronoun "it" in the sentence text was supposed to resolve to the movie **Pulp Fiction**. However, because our input sentence was packed with keywords like "Uma Thurman" and "Quentin Tarantino", the DBpedia lookup candidates pulled both `dbr:Pulp_Fiction` and `dbr:Mia_Wallace`.
+
+MiniLM calculated the highest similarity score for the character **Mia Wallace**. Why? Because her abstract explicitly says: *"fictional character portrayed by **Uma Thurman** in **Quentin Tarantino's film Pulp Fiction**..."*
+
+The character description contained almost every single proper noun from our input sentence. The model drowned in the context and ranked `dbr:Mia_Wallace` as the top match instead of the actual movie. The pipeline confidently claimed that Uma Thurman starred in the *character* Mia Wallace, rather than starring in the *movie* Pulp Fiction!
+
+## The Solution: The Neuro-Symbolic Bridge
+
+This failure proved that pure semantic vector similarity isn't enough on its own. We need a smarter and more dynamic approach to calculate the similarity score for each of the URIs, and then rank them based on this smarter approach. This is exactly why we need a hybrid, **Neuro-Symbolic** approach:
+
+**Semantic Self-Learning Entity Disambiguation:** We need to implement a lexical anchor. The pipeline needs to dynamically balance the context vector (meaning) with strict string matching (Edit Distance) on the entity name to prevent context drowning.
+
+I now had the blueprint for the solution. Next week, I'll be deep in the trenches writing the Python code to implement this exact Semantic-Lexical blend.
