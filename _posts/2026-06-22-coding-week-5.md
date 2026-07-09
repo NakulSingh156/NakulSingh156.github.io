@@ -11,7 +11,7 @@ This week, we completely overhauled the system into a **4-Node Autonomous Neuro-
 
 ### Why not "just use an LLM"?
 
-A common critique I faced while building this was: *If the math gets it wrong, why not just pass it to an LLM to fix the output?*
+One thing I kept thinking about while building this was: *If the math gets it wrong, why not just pass it to an LLM to fix the output?*
 
 The answer is simple: LLMs are stochastic. If you ask an LLM to fix a mathematical ranking error, it just guesses the weights. We wanted a deterministic approach. By replacing LLM guesswork with a deterministic **Algebraic Margin Solver**, our architecture achieves:
 
