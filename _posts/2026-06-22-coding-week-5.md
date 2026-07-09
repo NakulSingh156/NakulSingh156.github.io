@@ -17,8 +17,8 @@ The answer is simple: LLMs are stochastic. If you ask an LLM to fix a mathematic
 
 * **Zero-Cost Latency:** Math solves in nanoseconds; LLM calls take seconds and cost tokens.
 * **Determinism:** Given the same error, the algebraic solver computes the exact same corrective weights every single time.
-* **Explainability:** Every ranking shift is mathematically provable, eliminating the "black box" effect.
-* **Parametric Failsafe:** The LLM is reserved *only* as the ultimate auditor and final failsafe, maximizing efficiency.
+* **Explainability:** Every ranking shift is mathematically provable, eliminating the black box effect.
+* **Parametric Failsafe:** The LLM is reserved only as the ultimate auditor and final failsafe, maximizing efficiency.
 
 ---
 
