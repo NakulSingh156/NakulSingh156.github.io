@@ -31,7 +31,7 @@ Here is how the pipeline flows now:
 2. **Node 2: Targeted Retrieval (The Symbolic Fetcher)**
    We ping the DBpedia Lookup API to fetch the top 15 candidates for both entities.
 3. **Node 3: Independent Resolution Math Engine**
-   We score the entities using our multi-dimensional vector/lexical blends (80/20 for entities, 50/50 for predicates) and apply the ontological penalties I discussed last week.
+   We score the entities using our multi dimensional vector/lexical blends (80/20 for entities, 50/50 for predicates) and apply the ontological penalties I discussed last week.
 4. **Node 4: The Diagnostic Judge & Algebraic Solver (The Healer)**
    This is where the magic happens.
 
