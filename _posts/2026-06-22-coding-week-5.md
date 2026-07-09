@@ -13,7 +13,7 @@ This week, we completely overhauled the system into a **4-Node Autonomous Neuro-
 
 A common critique I faced while building this was: *If the math gets it wrong, why not just pass it to an LLM to fix the output?*
 
-The answer is simple: LLMs are stochastic. If you ask an LLM to "fix" a mathematical ranking error, it just guesses the weights. We wanted a deterministic approach. By replacing LLM guesswork with a deterministic **Algebraic Margin Solver**, our architecture achieves:
+The answer is simple: LLMs are stochastic. If you ask an LLM to fix a mathematical ranking error, it just guesses the weights. We wanted a deterministic approach. By replacing LLM guesswork with a deterministic **Algebraic Margin Solver**, our architecture achieves:
 
 * **Zero-Cost Latency:** Math solves in nanoseconds; LLM calls take seconds and cost tokens.
 * **Determinism:** Given the same error, the algebraic solver computes the exact same corrective weights every single time.
@@ -67,4 +67,4 @@ See the problem? The math engine picked `dbo:releaseLocation` for the predicate 
 
 To fix this and handle these cyclic correction loops elegantly, my primary task for next week is to implement **LangGraph**. This will make the entire system natively agentic and handle the cyclic routing between Node 3 and Node 4 seamlessly.
 
-I will also be rewriting the Node 4 prompt to be much stricter. I plan to add few-shot examples directly into the system prompt—feeding it this exact "Apple / releaseLocation" example—so it learns to never hallucinate or approve poorly matched predicates again. Stay tuned!
+I will also be rewriting the Node 4 prompt to be much stricter. I plan to add few shot examples directly into the system prompt feeding it this exact "Apple / releaseLocation" example, so it learns to never hallucinate or approve poorly matched predicates again. Stay tuned!
