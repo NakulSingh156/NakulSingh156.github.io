@@ -25,7 +25,7 @@ This approach fixed a lot of things, we correctly solved the George Lucas exampl
 
 See this output snippet:
 
-![George Lucas Output Snippet](/George Lucas success.png)
+![George Lucas Output Snippet](/george_lucas_success.png)
 
 In our weekly call my mentors suggested me to use an LLM in the validation layer, which will validate the final triple just like a human. Which really made a lot of sense because there are edge cases where math is doing its job but we still might get wrong outputs, for those cases we need the LLM to verify the final triple.
 
