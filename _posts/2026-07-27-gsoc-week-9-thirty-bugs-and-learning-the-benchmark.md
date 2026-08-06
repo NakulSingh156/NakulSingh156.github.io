@@ -150,7 +150,7 @@ still wrong.
 | 3_airport | 0.4623 |
 | ... | ... |
 
-The infrastructure also got a lot of attention this week — a per-sentence circuit breaker
+The infrastructure also got a lot of attention this week, a per-sentence circuit breaker
 with a 180s hard wall, and a runner with throttling, retries and cooldowns. Not glamorous,
 but the public endpoints were timing out at 20 to 55% during long runs and I was throwing
 away entire domain runs because of it.
