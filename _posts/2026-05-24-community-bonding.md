@@ -13,7 +13,7 @@ So we kicked off our GSoC period with the community bonding period. I got a chan
 
 ## The Mentor Connect & Project Course Correction
 
-In one of my weekly connects with my project mentors, Tommaso Soru, Ara Yeroyan and Nandana, they gave me a very clear perspective of the project, the project goals and what's expected from me. Instead of trying to scale my small prototype on the whole 50 GB DBpedia dump, and setting it all up locally in a docker based redis architecture, which requires a lot of computation and resources!! I should focus on extracting the correct relations from the data from a messy sentence, which is the core goal of the Neural Extraction Project!! 
+In one of my weekly connects with my project mentors, Tommaso Soru, Ara Yeroyan, Mayank Kejriwal and Nandana Mihindukulasooriya, they gave me a very clear perspective of the project, the project goals and what's expected from me. Instead of trying to scale my small prototype on the whole 50 GB DBpedia dump, and setting it all up locally in a docker based redis architecture, which requires a lot of computation and resources!! I should focus on extracting the correct relations from the data from a messy sentence, which is the core goal of the Neural Extraction Project!! 
 
 We have a messy or a complex sentence as input, and as output we should be able to generate triples from that sentence and find the relations between them. 
 For example, we have an input sentence like "Inception was directed by Christopher Nolan".
