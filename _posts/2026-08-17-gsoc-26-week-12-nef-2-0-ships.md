@@ -168,3 +168,4 @@ would actually be about, not +0.004.
 
 Study my own proposal until I can defend every number in it, then pitch Phase 1. Then the
 `wikidata_tekgen` split for generalisation, and the blank nodes. Lets go!
+ 
