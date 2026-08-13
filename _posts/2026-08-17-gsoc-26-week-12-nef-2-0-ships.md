@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GSoC '26 Week 12: NEF 2.0 Ships — Docker, DBpedia's Repo, and Learning What 'Significant' Means"
-date: 2026-08-13
+date: 2026-08-17
 categories: gsoc dbpedia
 ---
 
