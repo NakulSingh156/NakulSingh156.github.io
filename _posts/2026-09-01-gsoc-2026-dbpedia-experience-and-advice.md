@@ -38,7 +38,7 @@ It had the full details of my PRs, a prototype I built as a proof of work and my
 And now it was a game of patience, results were to be announced on 1st May, and till then it's suspense. I kept overthinking my chances, even doubting my own work. But at the same time there was a sense of calmness and assurance in my mind that I gave my absolute everything, I left no stone unturned and even if I didn't get selected, the work that I did for this project till now and the skills I learnt, no one can take that away from me. The anxiety and overthinking were all over my head 😭
 Days kept passing and it finally was the night of 30th April 2026, results were to be announced at 11:30 pm. And throughout the entire day I just kept thinking about this. I remember, when it was 11:20 pm, from then I started refreshing my inbox and the GSoC portal. It finally was 11:30, nothing popped up. It was 11:35, still nothing. I was kinda worried that maybe I'm not selected 😔
 
-## The Selection Mail and Celebrations 🎉
+## The Selection Mail and Celebrations 🥳
 
 And then came a mail at 11:37 pm, "GSoC 2026: Congratulations, your proposal with DBpedia has been accepted!" 🥹🥳
 My goodness!! My reaction was surprisingly very calm, that yeah I deserve it. You know throughout those days I just kept thinking if I get selected then how would I celebrate. But when the moment actually came, I was surprisingly very calm :))
