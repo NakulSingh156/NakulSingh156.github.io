@@ -40,7 +40,7 @@ And on 22nd March I submitted my 37-page GSoC proposal. I mean I literally wrote
 
 A standard GSoC proposal is like 20 pages, the reason for my 37-page proposal was that I literally went all in for one organisation, one project and one proposal, so I had to ensure I gave my absolute best in it!
 
-It had the full details of my PRs, a prototype I built as a proof of work and my ideas for the summer, of how I could improve the project. I literally gave everything I had in these 3 months, every day of mine was just focussed around this. I literally couldn't recognise myself, because the work I did in these 3 months literally transformed me a lot! There were so many new things I learnt on the way.
+It had the full details of my PRs, a prototype I built as a proof of work and my ideas for the summer, of how I could improve the project. I literally gave everything I had in these 3 months, every day of mine was just focussed around this. I couldn't recognise myself, because the work I did in these 3 months really transformed me a lot! There were so many new things I learnt on the way.
 
 ## The Waiting Game
 
@@ -54,19 +54,20 @@ And then came a mail at 11:37 pm, "GSoC 2026: Congratulations, your proposal wit
 
 My goodness!! My reaction was surprisingly very calm, that yeah I deserve it. You know throughout those days I just kept thinking if I get selected then how would I celebrate. But when the moment actually came, I was surprisingly very calm :))
 
-I told my roommate about this, we both celebrated together. Our third roommate was half asleep, we woke him and told him about this, and then all three of us celebrated and danced in the room! 😂
+I told my roommate about this, we both celebrated together. Our third roommate was half asleep, we woke him up and told him about this, and then all three of us celebrated and danced in the room! 😂
 
-Then I called my parents to tell them about this, they were also very keenly waiting for this. They were happier than me! 😌
+Then I called my parents to tell them about this, they were also very keenly waiting for this. They were happier than me after getting the news! 😌
 
 ## Community Bonding period
 
-I received a very warm welcome from the DBpedia community and my project mentors, we did a few introduction calls and I couldn't wait to get started with the coding. The time came, 1st June 2026, we kicked off the project. I maintained the same sincerity here as well. I won't get too much into the technical details of the project in this blog post, you can check out my weekly blogs where I've shared the progress of my project from start to end in depth. The thing I loved about my mentors: Tommaso Soru, Ara Yeroyan, Nandana and Mayank, was how patient and calm they were with me. At the beginning of the project, it wasn't that easy and it was hard for me to figure out a few things. And they never made me feel dumb, they always supported me and actually "mentored" me. The thing I loved the most is that they won't spoon-feed you, absolutely no hand holding, they will guide you and show you the direction and the rest you have to figure out yourself, use your own brain.
+I received a very warm welcome from the DBpedia community and my project mentors, we did a few introduction calls and I couldn't wait to get started with the coding. The time came, 1st June 2026, we kicked off the project. I maintained the same sincerity here as well. I won't get too much into the technical details of the project in this blog post, you can check out my weekly blogs where I've shared the progress of my project from start to end in depth. The thing I loved about my mentors: Tommaso Soru, Ara Yeroyan, Nandana and Mayank, was how patient and calm they were with me. At the beginning of the project, it wasn't that easy and it was hard for me to figure out a few things. And they never made me feel dumb, they always supported me and actually "mentored" me. The thing I loved the most is that they won't spoon-feed you, absolutely no hand holding, they will guide you and show you the direction and the rest you have to figure out yourself, you have to use your own brain.
 
 ## Coding Period
 
 I adapted very quickly, started working on the project and always tried to find ways to improve it. And by the end of the project, the results spoke for themselves! I beat the score of this project's last year's version with my model, and that too 3-4 times cheaper and faster computation. Better performance in all the metrics. This was the result of 3 months of consistency, my desire to keep improving and finding my own bugs and fixing them. Then I packaged everything and made it a ready-to-use model using Docker.
 
 I passed the final submission! 😌
+
 So grateful and thankful to my mentors, I mean I surely wouldn't be here without their guidance.
 
 And there are a few things that I would still be working on even after GSoC ends. Publishing the results and my full model in a research paper, I have been working on a branch of this project that hasn't been done yet and it would be a big breakthrough when I do it and publish it eventually! And the other thing is still continuing to contribute to this project as a contributor. Open Source doesn't just end with the GSoC final evaluation, the work should go on!
@@ -85,7 +86,7 @@ Please look at GSoC as a great platform where you can contribute on several cool
 
 Pick an organisation that actually matches your preferred tech stack and whose projects you actually understand.
 
-Now start making "meaningful" contributions! I mean doing things like fixing a typo, or fixing the readme, or polishing a few lines in a code file and calling all of these contributions, these are not gonna take you anywhere.
+Now start making "meaningful" contributions! I mean doing things like fixing a typo, or fixing the readme, or polishing a few lines in a code file and calling all of these as "contributions", these are not gonna take you anywhere.
 
 Go into the depth of the project of your choice and actually understand what underlying issues you can solve. Then pick one which looks solvable to you and work on that, this way you can make your first PR. And trust me, once you start doing this the addiction is real! There's no going back. Keep making such contributions.
 
